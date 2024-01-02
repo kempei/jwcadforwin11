@@ -24,10 +24,10 @@ j3100            = on
 ```
 
 ## 印刷について
-JWCAD から直接印刷するために、dosbox-x の印刷機能をそのまま使っても、日本語を含む場合などに ESC/P を正しく解釈せず、うまく印刷されません。しかし、古いプリンタの問題を解決するためのサイト[retroprinter.com](https://www.retroprinter.com/)が公開している[PrinterToPDF](https://github.com/RWAP/PrinterToPDF)を用いることで、JWCADの印刷データを基にPDFを正しく作成することができます。このPDFを印刷すればOKです。これら一連の流れを簡単なスクリプトにしています。
+JWCAD から直接印刷するために、dosbox-x の印刷機能をそのまま使っても、日本語を含む場合などに ESC/P を正しく解釈せず、うまく印刷されません。しかし、古いプリンタの問題を解決するためのサイト[retroprinter.com](https://www.retroprinter.com/)が公開している[PrinterToPDF](https://github.com/RWAP/PrinterToPDF)を用いることで、JWCADの印刷データを基にPDFを正しく作成することができます。出力されたPDFを印刷すればOKです。これらの一連の流れを簡単なスクリプトにしています。
 
 ### dosbox-x.conf の印刷設定
-以下のようにファイル出力を設定します。<Your Username> の部分は Windows のユーザー名とします。
+以下のようにファイル出力を設定します。Your Username の部分は Windows のユーザー名とします。
 
 ```
 parallel1 = file file:escp.prn openwith:C:\Users\<Your Username>\printertopdf\print.bat
