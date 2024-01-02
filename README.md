@@ -2,7 +2,7 @@
 Enable JWCAD for DOS on Win11 with printing function.
 
 ## JWCAD DOS/V 版を dosbox-x で動作させる
-JWCAD DOS/V 版を Windows 11 で動作させることについては、dosbox-x の日本語対応によりシンプルな設定変更で起動が可能になっており、日本語もWindows側のIMEをシームレスに利用できるようになっています。
+JWCAD DOS/V 版を Windows 11 で動作させることについては、[dosbox-x](https://dosbox-x.com/) の日本語対応によりシンプルな設定変更で起動が可能になっており、日本語もWindows側のIMEをシームレスに利用できるようになっています。doxbox-x のバージョンは 2023.10.06 を基に作成しています。
 このリポジトリの doxbox-x.conf が参考になるでしょう。
 
 ### 解像度
