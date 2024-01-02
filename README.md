@@ -36,7 +36,7 @@ parallel1 = file file:escp.prn openwith:C:\Users\<Your Username>\printertopdf\pr
 dosbox-x を終了すると `openwith` のバッチファイルが実行されます。JWCAD の印刷終了時には実行されないのでご注意下さい。
 
 ## PrinterToPDF のビルドをWSLで実施する
-PrinterToPDF は、[GitHub 上のINSTALLATION](https://github.com/RWAP/PrinterToPDF#:~:text=run%20make.-,INSTALLATION,-make%20install%20installs)を基にビルドします。Windows 上ではそのままビルドできないので、WSL上のDebianで実施します。
+PrinterToPDF は、[GitHub 上のINSTALLATION](https://github.com/RWAP/PrinterToPDF#:~:text=run%20make.-,INSTALLATION,-make%20install%20installs)を基にビルドします。Windows 上ではそのままビルドできないので、[WSL上のDebian](https://learn.microsoft.com/ja-jp/windows/wsl/install)で実施します。
 
 ### Debian でビルドする際の注意点
 依存パッケージの[libharu](https://github.com/libharu/libharu/wiki/Installation)をインストール後、元々の注意点にもあるように、includeを `/usr/include/` から `/usr/local/include` に変更する必要があります。
